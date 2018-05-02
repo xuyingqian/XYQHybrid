@@ -1,6 +1,6 @@
 # XYQHybrid
 
-[![CI Status](http://img.shields.io/travis/xuyq/XYQHybrid.svg?style=flat)](https://travis-ci.org/xuyq/XYQHybrid)
+[![CI Status](http://img.shields.io/travis/xuyingqian/XYQHybrid.svg?style=flat)](https://travis-ci.org/xuyq/XYQHybrid)
 [![Version](https://img.shields.io/cocoapods/v/XYQHybrid.svg?style=flat)](http://cocoapods.org/pods/XYQHybrid)
 [![License](https://img.shields.io/cocoapods/l/XYQHybrid.svg?style=flat)](http://cocoapods.org/pods/XYQHybrid)
 [![Platform](https://img.shields.io/cocoapods/p/XYQHybrid.svg?style=flat)](http://cocoapods.org/pods/XYQHybrid)
