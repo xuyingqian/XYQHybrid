@@ -1,0 +1,6 @@
+framework module XYQHybrid {
+  umbrella header "XYQHybrid-umbrella.h"
+
+  export *
+  module * { export * }
+}

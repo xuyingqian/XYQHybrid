@@ -1,0 +1,16 @@
+PODS:
+  - XYQHybrid (0.1.0)
+
+DEPENDENCIES:
+  - XYQHybrid (from `../`)
+
+EXTERNAL SOURCES:
+  XYQHybrid:
+    :path: ../
+
+SPEC CHECKSUMS:
+  XYQHybrid: 8e5989223d727d56fe5e62e320cc92475329ea16
+
+PODFILE CHECKSUM: 7f084b18880ee3ad91dd1d948316cebc125d96fa
+
+COCOAPODS: 1.4.0.beta.2

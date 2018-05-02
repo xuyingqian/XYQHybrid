@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XYQHybrid_Example' do
+  pod 'XYQHybrid', :path => '../'
+
+  target 'XYQHybrid_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
