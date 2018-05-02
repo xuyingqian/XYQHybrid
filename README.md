@@ -24,7 +24,7 @@ XYQHybrid 是基于WKWebview的一个深度解耦Hybird框架。
 每一个Handler对应JS的一个模块，用于处理与JS交互后的数据处理和业务逻辑。考虑到如果交互后需要用到WebViewController，如果模块多，都回调到VC中处理，VC的代码量就会爆炸。后来从Casa大神的blog中得到灵感，使用NSInvocation调用具体的策略，策略放在对应的WebViewController的Category中。
 
 与JS的交互协议如下：  
-```window.webkit.messageHandlers.模块名.postMessage({"method":方法名,"params":参数})``` 
+```window.webkit.messageHandlers.模块名.postMessage({"method":方法名,"params":参数})```   
 例：```window.webkit.messageHandlers.Common.postMessage({"method":"showAlert","params":{"title":"弹个框试试", "message":"真的弹框了"}}) ```
 
 使用方法（详细请看DEMO）：  
