@@ -28,9 +28,10 @@ XYQHybrid 是基于WKWebview的一个深度解耦Hybird框架。
 例：```window.webkit.messageHandlers.Common.postMessage({"method":"showAlert","params":{"title":"弹个框试试", "message":"真的弹框了"}}) ```
 
 使用方法（详细请看DEMO）：  
-1. 创建继承自XYQBaseHandler的Handler，用于处理与JS的交互事件。Handler内部的方法名与对应协议中的method，如果带有参数，可以在方法名后加上一个存放参数的dictionary  
-2. 创建模块名与Handler类名的映射  
-3. 创建XYQWebViewController的Category，并在Category中实现对UI的展示
+1. 创建继承自XYQBaseHandler的Handler，用于处理与JS的交互事件。Handler内部的方法名与对应协议中的method，如果带有参数，可以在方法名后加上一个存放参数的dictionary。  
+2. 创建模块名与Handler类名的映射。  
+3. 创建XYQWebViewController的Category，并在Category中实现对UI的展示。  
+   Handler的方法```- (void)transferEventWithName:(NSString *)name userInfo:(NSDictionary *)userInfo;```可对Category中相对应的方法进行调用。
 
 ## Author
 
